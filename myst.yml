@@ -1,0 +1,33 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: An Analysis on Genomic Correlation for Gallstone Susceptibility
+  date: 2024/05/01
+  subject: Article
+  # description:
+  keywords: []
+  venue:
+    title: The Morganton Scientific
+  # github:
+  bibliography: my_references.bib
+  banner: ./images/banner.png
+  authors:
+    - name: Sanjita Srinath
+      affiliations: 
+        - institution: North Carolina School of Science and Mathematics
+          address: 901 Burkemont Ave
+          city: Morganton
+          region: North Carolina
+          country: United States
+          postal_code: 28655
+          phone: 828-347-9100
+      email: srinath24s@ncssm.edu
+  exports:
+  - format: pdf
+    template: arxiv_nips
+    article: index.md
+site:
+  template: article-theme
+  title: An Analysis on Genomic Correlation for Gallstone Susceptibility
+  nav: []
+  domains: []
